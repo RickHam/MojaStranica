@@ -1,0 +1,18 @@
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 40px;
+    }
+
+p{
+    max-width: 100ch;
+}
+
+nav {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 24px
+}
+
+section{
+    margin: 48px 0;
+}
