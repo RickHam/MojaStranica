@@ -1,18 +1,56 @@
 body{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(255, 94, 0);
     margin: 40px;
+    background-color: rgb(1, 1, 58);
     }
 
 p{
     max-width: 100ch;
 }
 
-nav {
-    display: flex;
-    gap: 16px;
-    margin-bottom: 24px
+header{
+    text-align: center;
+}
+header p{
+    justify-content: right;
 }
 
+#kfn{
+    width:  500px;
+    height: 500px;
+}
+
+nav {
+    height: 50px;
+    width: 20%;
+    margin: 0 auto;
+    font-size: 20px;
+    position: sticky;
+    top:0;
+    background: gray;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 24px;
+
+    gap: 40px;
+}
+
+nav a{
+    color: blue;
+    
+    background: black;
+    border-radius: 10px;
+}
+footer{
+    position: sticky;
+    bottom: 0%;
+    display: flex;
+    justify-content: right;
+}
 section{
     margin: 48px 0;
 }
